@@ -1,0 +1,37 @@
+body {
+  background-color: #1a1a1a;
+  color: cyan;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  background: #00000090;
+  color: cyan;
+  height: 2rem;
+  width: 22rem;
+  font-size: 1.7rem;
+  text-align: right;
+  font-weight: 700;
+  padding: 1.4rem;
+}
+
+button {
+  margin: 1rem;
+  width: 10rem;
+  padding: 0.325rem;
+  border-radius: 0.325rem;
+  background-color: red;
+  color: cyan;
+  font-weight: 400;
+  font-size: 1rem;
+}
